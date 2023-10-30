@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title-txt">
+        <h1 id="title">Calculator</h1>
+    </div>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input id="result" type="text" onkeypress="return validate(event)" name="display">
+                </div>
+                <div>
+                    <button id="clear"  type="button" value="AC">AC</button>
+                    <button id="delete" type="button" value="DEL">DEL</button>
+                    <button id="."      inputs type="button" value=".">.</button>
+                    <button id="divide" inputs type="button" value="/">/</button>
+                </div>
+                <div>
+                    <button id="7" inputs type="button" value="7">7</button>
+                    <button id="8" inputs type="button" value="8">8</button>
+                    <button id="9" inputs type="button" value="9">9</button>
+                    <button id="multipicaton" inputs type="button" value="*">*</button>
+                </div>
+                <div>
+                    <button id="4" inputs type="button" value="4"  >4</button>
+                    <button id="5" inputs type="button" value="5"  >5</button>
+                    <button id="9" inputs type="button" value="6"  >6</button>
+                    <button id="subtract" inputs type="button" value="-">-</button>
+                    
+                </div>
+                <div>
+                    <button id="1" inputs type="button" value="1"  >1</button>
+                    <button id="2" inputs type="button" value="2"  >2</button>
+                    <button id="3" inputs type="button" value="3"  >3</button>
+                    <button id="add" inputs type="button" value="+" >+</button>
+                </div>
+                <div>
+                    <button id="00" inputs type="button" value="00"  >00</button>
+                    <button id="0" inputs type="button" value="0">0</button>
+                    <button id="equal" type="button" value="=">=</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="description-content">
+        <p id="description">
+               Created a claculator with HTML, CSS and Javascript by using Document Object Model. This calculator can perform additon, subtracton, division and multiplication. In the input field numbers only allowed otherwise it show the pop-up.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
